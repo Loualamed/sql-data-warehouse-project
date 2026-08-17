@@ -40,20 +40,20 @@ CREATE TABLE IF NOT EXISTS bronze.crm_sales_details (
 );
 
 CREATE TABLE IF NOT EXISTS bronze.erp_cust_az12 (
-    CID	  VARCHAR(50),
-    BDATE DATE,
-    GEN   VARCHAR(50)
+    cid	  VARCHAR(50),
+    bdate DATE,
+    gen   VARCHAR(50)
 );
 
 CREATE TABLE IF NOT EXISTS bronze.erp_loc_a101 (
-    CID   VARCHAR(50),
-    CNTRY VARCHAR(50)
+    cid   VARCHAR(50),
+    cntry VARCHAR(50)
 );
 
 CREATE TABLE IF NOT EXISTS bronze.erp_px_cat_g1v2 (
-    ID          VARCHAR(50),
-    CAT	        VARCHAR(50),
-    SUBCAT      VARCHAR(50),
-    MAINTENANCE VARCHAR(50)
+    id          VARCHAR(50),
+    cat	        VARCHAR(50),
+    subcat      VARCHAR(50),
+    maintenance VARCHAR(50)
 );
 
