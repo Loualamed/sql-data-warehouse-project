@@ -53,7 +53,7 @@ INSERT INTO silver.crm_prd_info (
 SELECT 
 	prd_id, 
 	substring(prd_key, 7, length(prd_key)) AS prd_key,
-	substring(prd_key , 1, 5) AS cat_id,
+	replace(substring(prd_key , 1, 5), '-', '_') AS cat_id,
 	prd_nm, 
 	coalesce(prd_cost, 0) AS prd_cost, 
 	CASE 
