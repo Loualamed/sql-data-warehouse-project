@@ -45,7 +45,7 @@ DataWarehouse/
 │   └── quality_checks_gold.sql
 │
 └── docs/
-    ├── data_catalog.md
+    └── data_catalog.md
 ```
 
 ---
